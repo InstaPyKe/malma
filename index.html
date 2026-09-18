@@ -369,9 +369,9 @@
                     <span class="font-display text-3xl sm:text-4xl font-black tracking-wider text-white brand-glow leading-none">
                         MALMA<span class="text-malmaGreen">TECH</span>
                     </span>
-                    <span class="text-[10px] uppercase tracking-[0.3em] text-malmaCyan font-extrabold mt-1 flex items-center gap-1.5">
+                    <span class="text-xs italic lowercase text-malmaCyan font-medium mt-0.5 flex items-center gap-1.5 font-mono">
                         <span class="w-1.5 h-1.5 rounded-full bg-malmaGreen animate-ping"></span>
-                        GLOBAL SOFTWARE ENGINEERING
+                        global software engineering
                     </span>
                 </div>
             </a>
@@ -380,16 +380,11 @@
             <nav class="hidden lg:flex items-center space-x-1 bg-black/60 border border-malmaGreen/25 rounded-2xl p-1.5 backdrop-blur-xl shadow-lg shadow-black/50">
                 <a href="#home" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">Home</a>
                 <a href="#services" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">Services</a>
-                <a href="#calculator" class="px-3 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaCyan hover:bg-malmaCyan/10 transition-all flex items-center gap-1.5 group">
-                    <i class="fa-solid fa-calculator text-malmaCyan text-xs group-hover:scale-110 transition-transform"></i>
-                    <span>Calculator</span>
-                    <span class="w-1.5 h-1.5 rounded-full bg-malmaCyan animate-ping"></span>
-                </a>
                 <a href="#portfolio" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">Portfolio</a>
                 <a href="#why-us" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">Why Us</a>
-                <a href="#pricing" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all flex items-center gap-1">
-                    <span>Pricing</span>
-                    <span class="text-[9px] bg-malmaGreen/20 text-malmaGreen px-1.5 py-0.5 rounded font-black border border-malmaGreen/30">Plans</span>
+                <a href="#pricing" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all flex items-center gap-1.5 group">
+                    <span>Packages (5k-50k)</span>
+                    <span class="text-[9px] bg-gradient-to-r from-malmaGreen to-malmaCyan text-black px-1.5 py-0.5 rounded font-black">7 Tiers</span>
                 </a>
                 <a href="#about" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">About</a>
                 <a href="#faq" class="px-3.5 py-1.5 rounded-xl text-xs uppercase font-extrabold tracking-wider text-gray-200 hover:text-malmaGreen hover:bg-malmaGreen/10 transition-all">FAQ</a>
@@ -421,12 +416,11 @@
         <div id="mobileMenu" class="hidden xl:hidden glass-card border-t border-malmaGreen/20 px-6 pt-5 pb-7 space-y-3">
             <a href="#home" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-malmaGreen bg-malmaGreen/10">Home</a>
             <a href="#services" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">Services</a>
-            <a href="#calculator" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen flex items-center justify-between">
-                <span>Cost Calculator</span> <span class="text-xs bg-malmaCyan/20 text-malmaCyan px-2 py-0.5 rounded font-bold">Interactive</span>
+            <a href="#pricing" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen flex items-center justify-between">
+                <span>Fixed Packages (Ksh 5k - 50k)</span> <span class="text-xs bg-malmaGreen/20 text-malmaGreen px-2 py-0.5 rounded font-bold">7 Plans</span>
             </a>
             <a href="#portfolio" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">Portfolio & Case Studies</a>
             <a href="#why-us" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">Why Choose Us</a>
-            <a href="#pricing" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">Pricing & Plans</a>
             <a href="#about" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">About MalmaTech</a>
             <a href="#faq" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">FAQ</a>
             <a href="#contact" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-base font-bold text-gray-300 hover:text-malmaGreen">Contact Us</a>
@@ -451,13 +445,6 @@
                     
                     <!-- Left Hero Copy -->
                     <div class="lg:col-span-7 space-y-7 text-left reveal reveal-left">
-                        
-                        <!-- Glowing MalmaTech Badge Accent -->
-                        <div class="inline-flex items-center space-x-3 px-4 py-2 rounded-full bg-gradient-to-r from-malmaGreen/15 via-malmaCyan/15 to-transparent border border-malmaGreen/40 text-xs font-black uppercase tracking-wider shadow-lg">
-                            <span class="w-2.5 h-2.5 rounded-full bg-malmaGreen animate-ping"></span>
-                            <span class="text-white font-display">PREMIUM SOFTWARE & DIGITAL AGENCY</span>
-                            <span class="text-malmaCyan">• WORLDWIDE REACH</span>
-                        </div>
 
                         <!-- Main Headline -->
                         <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.08] text-white">
@@ -476,33 +463,76 @@
                         <div class="flex flex-wrap items-center gap-4 pt-2">
                             <a href="#pricing"
                                 class="px-8 py-4 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-base shadow-xl shadow-malmaGreen/30 hover:opacity-90 hover:shadow-malmaCyan/50 transition-all transform hover:-translate-y-1 flex items-center space-x-3">
-                                <span>Explore Pricing & Plans</span>
+                                <span>Explore Packages (5k - 50k)</span>
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
-                            <a href="#calculator"
-                                class="px-7 py-4 rounded-xl glass-card text-white font-bold text-base hover:border-malmaCyan transition-all flex items-center space-x-2">
-                                <i class="fa-solid fa-calculator text-malmaCyan"></i>
-                                <span>Calculate Project Cost</span>
+                            <a href="https://wa.me/254758716026?text=Hello%20MalmaTech,%20I%20am%20interested%20in%20your%20custom%20web%20and%20software%20services" target="_blank"
+                                class="px-7 py-4 rounded-xl glass-card text-white font-bold text-base hover:border-malmaGreen hover:text-malmaGreen transition-all flex items-center space-x-2.5">
+                                <i class="fa-brands fa-whatsapp text-malmaGreen text-xl"></i>
+                                <span>WhatsApp Consultation</span>
                             </a>
                         </div>
 
-                        <!-- Key Performance Metric Counters -->
-                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-malmaGreen/20">
-                            <div class="glass-card p-4 rounded-2xl border-t-2 border-t-malmaGreen">
-                                <p class="text-2xl sm:text-3xl font-black text-malmaGreen font-display">100%</p>
-                                <p class="text-xs text-gray-400 font-semibold mt-1">Transparent Pricing</p>
-                            </div>
-                            <div class="glass-card p-4 rounded-2xl border-t-2 border-t-malmaCyan">
-                                <p class="text-2xl sm:text-3xl font-black text-white font-display">75+</p>
-                                <p class="text-xs text-gray-400 font-semibold mt-1">Projects Delivered</p>
-                            </div>
-                            <div class="glass-card p-4 rounded-2xl border-t-2 border-t-malmaGreen">
-                                <p class="text-2xl sm:text-3xl font-black text-malmaGreen font-display">99.9%</p>
-                                <p class="text-xs text-gray-400 font-semibold mt-1">Uptime & Free SSL</p>
-                            </div>
-                            <div class="glass-card p-4 rounded-2xl border-t-2 border-t-yellow-400">
-                                <p class="text-2xl sm:text-3xl font-black text-yellow-400 font-display">4.9 ★</p>
-                                <p class="text-xs text-gray-400 font-semibold mt-1">Client Rating</p>
+                        <!-- Key Performance Metric Counters (100% Enhanced UI) -->
+                        <div class="pt-8 border-t border-malmaGreen/20">
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.5 sm:gap-4">
+                                
+                                <!-- Stat 1: 100% Transparent Pricing -->
+                                <div class="glass-card p-4 rounded-2xl border border-malmaGreen/35 hover:border-malmaGreen relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-black/70 bg-gradient-to-b from-emerald-950/40 via-black/75 to-black/90">
+                                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-malmaGreen/15 rounded-full blur-xl pointer-events-none group-hover:bg-malmaGreen/30 transition-all"></div>
+                                    <div class="flex items-center justify-between mb-2.5">
+                                        <div class="w-8 h-8 rounded-xl bg-malmaGreen/15 border border-malmaGreen/40 flex items-center justify-center text-malmaGreen text-xs group-hover:scale-110 transition-transform shadow-inner">
+                                            <i class="fa-solid fa-tags"></i>
+                                        </div>
+                                        <span class="w-2 h-2 rounded-full bg-malmaGreen animate-pulse"></span>
+                                    </div>
+                                    <p class="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-malmaGreen via-emerald-300 to-teal-200 font-display leading-tight tracking-tight">100%</p>
+                                    <p class="text-xs text-white font-black mt-1">Transparent Pricing</p>
+                                    <p class="text-[10px] text-gray-400 font-medium">Zero hidden fees</p>
+                                </div>
+
+                                <!-- Stat 2: 75+ Projects Delivered -->
+                                <div class="glass-card p-4 rounded-2xl border border-malmaCyan/35 hover:border-malmaCyan relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-black/70 bg-gradient-to-b from-cyan-950/40 via-black/75 to-black/90">
+                                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-malmaCyan/15 rounded-full blur-xl pointer-events-none group-hover:bg-malmaCyan/30 transition-all"></div>
+                                    <div class="flex items-center justify-between mb-2.5">
+                                        <div class="w-8 h-8 rounded-xl bg-malmaCyan/15 border border-malmaCyan/40 flex items-center justify-center text-malmaCyan text-xs group-hover:scale-110 transition-transform shadow-inner">
+                                            <i class="fa-solid fa-rocket"></i>
+                                        </div>
+                                        <span class="w-2 h-2 rounded-full bg-malmaCyan animate-pulse"></span>
+                                    </div>
+                                    <p class="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-malmaCyan via-cyan-300 to-blue-200 font-display leading-tight tracking-tight">75+</p>
+                                    <p class="text-xs text-white font-black mt-1">Projects Delivered</p>
+                                    <p class="text-[10px] text-gray-400 font-medium">Global & local scope</p>
+                                </div>
+
+                                <!-- Stat 3: 99.9% Uptime & Free SSL -->
+                                <div class="glass-card p-4 rounded-2xl border border-malmaGreen/35 hover:border-malmaGreen relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-black/70 bg-gradient-to-b from-emerald-950/40 via-black/75 to-black/90">
+                                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-malmaGreen/15 rounded-full blur-xl pointer-events-none group-hover:bg-malmaGreen/30 transition-all"></div>
+                                    <div class="flex items-center justify-between mb-2.5">
+                                        <div class="w-8 h-8 rounded-xl bg-malmaGreen/15 border border-malmaGreen/40 flex items-center justify-center text-malmaGreen text-xs group-hover:scale-110 transition-transform shadow-inner">
+                                            <i class="fa-solid fa-shield-halved"></i>
+                                        </div>
+                                        <span class="w-2 h-2 rounded-full bg-malmaGreen animate-pulse"></span>
+                                    </div>
+                                    <p class="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-malmaGreen via-emerald-300 to-teal-200 font-display leading-tight tracking-tight">99.9%</p>
+                                    <p class="text-xs text-white font-black mt-1">Uptime & Free SSL</p>
+                                    <p class="text-[10px] text-gray-400 font-medium">Bank-grade security</p>
+                                </div>
+
+                                <!-- Stat 4: 4.9 ★ Client Rating -->
+                                <div class="glass-card p-4 rounded-2xl border border-amber-400/35 hover:border-amber-400 relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 shadow-xl shadow-black/70 bg-gradient-to-b from-amber-950/40 via-black/75 to-black/90">
+                                    <div class="absolute -top-6 -right-6 w-20 h-20 bg-amber-400/15 rounded-full blur-xl pointer-events-none group-hover:bg-amber-400/30 transition-all"></div>
+                                    <div class="flex items-center justify-between mb-2.5">
+                                        <div class="w-8 h-8 rounded-xl bg-amber-400/15 border border-amber-400/40 flex items-center justify-center text-amber-400 text-xs group-hover:scale-110 transition-transform shadow-inner">
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                                    </div>
+                                    <p class="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 font-display leading-tight tracking-tight">4.9 ★</p>
+                                    <p class="text-xs text-white font-black mt-1">Client Rating</p>
+                                    <p class="text-[10px] text-gray-400 font-medium">5-star verified feedback</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -770,185 +800,6 @@
             </div>
         </section>
 
-        <!-- ==================== 3. INTERACTIVE PROJECT COST CALCULATOR ==================== -->
-        <section id="calculator" class="py-24 relative bg-black/60 border-y border-malmaGreen/25">
-            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                
-                <div class="text-center max-w-2xl mx-auto mb-14 space-y-3 reveal reveal-up">
-                    <span class="text-malmaCyan text-xs font-black tracking-widest uppercase px-4 py-1.5 rounded-full bg-malmaCyan/15 border border-malmaCyan/40 shadow-sm">
-                        Instant Transparent Pricing
-                    </span>
-                    <h2 class="font-display text-3xl sm:text-5xl font-black text-white">Interactive Project Cost Estimator</h2>
-                    <div class="glow-line w-24 mx-auto rounded-full"></div>
-                    <p class="text-gray-300 text-sm sm:text-base">
-                        Select your project parameters below to get an instant live price estimate in your local currency.
-                    </p>
-                </div>
-
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                    
-                    <!-- Left: Configuration Controls -->
-                    <div class="lg:col-span-7 glass-card p-6 sm:p-8 rounded-3xl space-y-6 reveal reveal-left border-2 border-malmaGreen/30">
-                        
-                        <!-- Option 1: Project Type -->
-                        <div>
-                            <label class="block text-xs uppercase font-black text-malmaGreen mb-3 tracking-wider">
-                                1. Select Project Type
-                            </label>
-                            <div class="grid grid-cols-2 gap-3">
-                                <button type="button" onclick="setProjectType('starter', 5000, this)" 
-                                    class="calc-type-btn p-4 rounded-2xl border border-malmaGreen bg-malmaGreen/15 text-white text-left font-bold text-xs flex flex-col justify-between transition-all shadow-sm">
-                                    <span class="font-display font-bold">Starter Web Landing</span>
-                                    <span class="text-malmaGreen text-xs font-mono font-bold mt-1.5">Base: <span class="price-val" data-kes="5000">Ksh 5,000</span></span>
-                                </button>
-                                <button type="button" onclick="setProjectType('business', 12000, this)" 
-                                    class="calc-type-btn p-4 rounded-2xl border border-gray-800 bg-black/50 text-gray-300 text-left font-bold text-xs flex flex-col justify-between transition-all hover:border-malmaCyan/50">
-                                    <span class="font-display font-bold">Corporate Multi-Page</span>
-                                    <span class="text-gray-400 text-xs font-mono mt-1.5">Base: <span class="price-val" data-kes="12000">Ksh 12,000</span></span>
-                                </button>
-                                <button type="button" onclick="setProjectType('ecommerce', 20000, this)" 
-                                    class="calc-type-btn p-4 rounded-2xl border border-gray-800 bg-black/50 text-gray-300 text-left font-bold text-xs flex flex-col justify-between transition-all hover:border-malmaGreen/50">
-                                    <span class="font-display font-bold">E-Commerce Store</span>
-                                    <span class="text-gray-400 text-xs font-mono mt-1.5">Base: <span class="price-val" data-kes="20000">Ksh 20,000</span></span>
-                                </button>
-                                <button type="button" onclick="setProjectType('custom', 30000, this)" 
-                                    class="calc-type-btn p-4 rounded-2xl border border-gray-800 bg-black/50 text-gray-300 text-left font-bold text-xs flex flex-col justify-between transition-all hover:border-malmaCyan/50">
-                                    <span class="font-display font-bold">Custom Fullstack App</span>
-                                    <span class="text-gray-400 text-xs font-mono mt-1.5">Base: <span class="price-val" data-kes="30000">Ksh 30,000</span></span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Option 2: Page Count Range Slider -->
-                        <div>
-                            <div class="flex justify-between items-center mb-2">
-                                <label class="text-xs uppercase font-black text-malmaCyan tracking-wider">
-                                    2. Number of Pages / Views
-                                </label>
-                                <span id="pageCountDisplay" class="text-xs sm:text-sm font-black text-white bg-black/70 px-3 py-1 rounded-lg border border-malmaGreen/40">
-                                    1 - 3 Pages (Included)
-                                </span>
-                            </div>
-                            <input type="range" id="pageSlider" min="1" max="15" value="3" step="1" 
-                                oninput="updateCalculator()"
-                                class="w-full h-2.5 bg-black/80 rounded-lg cursor-pointer border border-malmaGreen/30">
-                            <div class="flex justify-between text-[11px] text-gray-400 mt-1.5 font-mono">
-                                <span>1-3 Pages</span>
-                                <span>5 Pages</span>
-                                <span>10 Pages</span>
-                                <span>15+ Pages</span>
-                            </div>
-                        </div>
-
-                        <!-- Option 3: Add-on Modules -->
-                        <div>
-                            <label class="block text-xs uppercase font-black text-malmaGreen mb-3 tracking-wider">
-                                3. Essential Add-on Modules
-                            </label>
-                            <div class="space-y-2.5">
-                                <label class="flex items-center justify-between p-3.5 rounded-2xl bg-black/50 border border-gray-800 hover:border-malmaGreen/40 cursor-pointer transition-all">
-                                    <div class="flex items-center space-x-3">
-                                        <input type="checkbox" id="addonMpesa" onchange="updateCalculator()" class="w-4 h-4 rounded text-malmaGreen focus:ring-0 bg-black border-gray-700">
-                                        <div class="flex items-center space-x-2">
-                                            <span class="text-xs sm:text-sm font-semibold text-gray-200">Payment Gateway Integration</span>
-                                            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-black/70 border border-malmaGreen/30 text-[10px] text-emerald-400 font-black">
-                                                <i class="fa-brands fa-stripe text-[#635BFF] text-xs"></i>
-                                                <i class="fa-brands fa-cc-visa text-blue-400 text-xs"></i>
-                                                <span>M-PESA</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <span class="text-xs font-mono text-malmaGreen font-bold">+<span class="price-val" data-kes="3500">Ksh 3,500</span></span>
-                                </label>
-
-                                <label class="flex items-center justify-between p-3.5 rounded-2xl bg-black/50 border border-gray-800 hover:border-malmaCyan/40 cursor-pointer transition-all">
-                                    <div class="flex items-center space-x-3">
-                                        <input type="checkbox" id="addonSeo" onchange="updateCalculator()" checked class="w-4 h-4 rounded text-malmaGreen focus:ring-0 bg-black border-gray-700">
-                                        <span class="text-xs sm:text-sm font-semibold text-gray-200">Google SEO Optimization + Speed Booster</span>
-                                    </div>
-                                    <span class="text-xs font-mono text-malmaCyan font-bold">+<span class="price-val" data-kes="1500">Ksh 1,500</span></span>
-                                </label>
-
-                                <label class="flex items-center justify-between p-3.5 rounded-2xl bg-black/50 border border-gray-800 hover:border-malmaGreen/40 cursor-pointer transition-all">
-                                    <div class="flex items-center space-x-3">
-                                        <input type="checkbox" id="addonHosting" onchange="updateCalculator()" checked class="w-4 h-4 rounded text-malmaGreen focus:ring-0 bg-black border-gray-700">
-                                        <span class="text-xs sm:text-sm font-semibold text-gray-200">Domain & 1-Year Fast Cloud Hosting Setup</span>
-                                    </div>
-                                    <span class="text-xs font-mono text-malmaGreen font-bold">+<span class="price-val" data-kes="2500">Ksh 2,500</span></span>
-                                </label>
-
-                                <label class="flex items-center justify-between p-3.5 rounded-2xl bg-black/50 border border-gray-800 hover:border-malmaCyan/40 cursor-pointer transition-all">
-                                    <div class="flex items-center space-x-3">
-                                        <input type="checkbox" id="addonExpress" onchange="updateCalculator()" class="w-4 h-4 rounded text-malmaGreen focus:ring-0 bg-black border-gray-700">
-                                        <span class="text-xs sm:text-sm font-semibold text-gray-200">Express 48-Hour Priority Turnaround</span>
-                                    </div>
-                                    <span class="text-xs font-mono text-malmaCyan font-bold">+<span class="price-val" data-kes="2000">Ksh 2,000</span></span>
-                                </label>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Right: Live Quote Summary Card -->
-                    <div class="lg:col-span-5 glass-card p-6 sm:p-8 rounded-3xl border-2 border-malmaCyan/40 relative shadow-2xl reveal reveal-right">
-                        <div class="absolute top-0 right-0 bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-[10px] uppercase px-3.5 py-1.5 rounded-bl-2xl tracking-wider">
-                            Live Estimate
-                        </div>
-
-                        <h3 class="font-display text-2xl font-black text-white mb-1">Your Project Spec</h3>
-                        <p class="text-gray-400 text-xs mb-6">Guaranteed fixed quote based on your selected features</p>
-
-                        <!-- Price Large Number Display -->
-                        <div class="p-5 rounded-2xl bg-black/75 border border-malmaGreen/40 mb-6">
-                            <span class="text-xs text-gray-400 block font-semibold mb-1">Estimated Total Investment:</span>
-                            <div class="flex items-baseline space-x-2">
-                                <span id="calcTotalPrice" class="font-display text-4xl sm:text-5xl font-black text-malmaGreen">Ksh 9,000</span>
-                                <span id="calcCurrencyCode" class="text-gray-400 text-xs font-bold">KES</span>
-                            </div>
-                            <span class="text-xs text-emerald-400 block mt-1.5"><i class="fa-solid fa-check-circle text-malmaGreen mr-1"></i> Includes Free SSL & 30-Day Support</span>
-                        </div>
-
-                        <!-- Included Summary Features -->
-                        <div class="space-y-3 text-xs sm:text-sm text-gray-300 mb-8 font-medium">
-                            <div class="flex items-center space-x-2.5">
-                                <i class="fa-solid fa-check text-malmaGreen"></i>
-                                <span id="summaryProjectType" class="font-bold text-white">Starter Web Landing Package</span>
-                            </div>
-                            <div class="flex items-center space-x-2.5">
-                                <i class="fa-solid fa-check text-malmaGreen"></i>
-                                <span id="summaryPageCount">1-3 Custom Pages</span>
-                            </div>
-                            <div class="flex items-center space-x-2.5">
-                                <i class="fa-solid fa-check text-malmaGreen"></i>
-                                <span>100% Mobile & Tablet Responsive</span>
-                            </div>
-                            <div class="flex items-center space-x-2.5">
-                                <i class="fa-solid fa-check text-malmaGreen"></i>
-                                <span>SSL HTTPS Certificate Configuration</span>
-                            </div>
-                            <div class="flex items-center space-x-2.5">
-                                <i class="fa-solid fa-check text-malmaGreen"></i>
-                                <span>Source Code Handover & Documentation</span>
-                            </div>
-                        </div>
-
-                        <!-- Instant Action Buttons -->
-                        <div class="space-y-3">
-                            <button onclick="orderViaWhatsApp()" 
-                                class="w-full py-4 rounded-2xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-sm shadow-xl shadow-malmaGreen/30 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
-                                <i class="fa-brands fa-whatsapp text-xl text-black"></i>
-                                <span>Order This Spec on WhatsApp</span>
-                            </button>
-                            <a href="#contact" 
-                                class="w-full py-3.5 rounded-2xl glass-card text-center block text-white font-bold text-xs hover:border-malmaGreen transition-all">
-                                Send Written Inquiry via Form
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
 
         <!-- ==================== 4. PORTFOLIO & CASE STUDIES ==================== -->
         <section id="portfolio" class="py-24 relative">
@@ -1329,171 +1180,453 @@
             </div>
         </section>
 
-        <!-- ==================== 7. TRANSPARENT PRICING & PLANS (MULTI-CURRENCY) ==================== -->
+        <!-- ==================== 7. FIXED CUSTOM SERVICES & TRANSPARENT PACKAGES ==================== -->
         <section id="pricing" class="py-24 relative bg-black/60 border-y border-malmaGreen/25">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
-                <div class="text-center max-w-3xl mx-auto mb-16 space-y-4 reveal reveal-up">
+                <div class="text-center max-w-3xl mx-auto mb-12 space-y-4 reveal reveal-up">
                     <span class="text-malmaGreen text-xs font-black tracking-widest uppercase px-4 py-1.5 rounded-full bg-malmaGreen/15 border border-malmaGreen/40 shadow-sm">
-                        Transparent Tiered Packages
+                        Fixed Pricing • Zero Hidden Fees
                     </span>
-                    <h2 class="font-display text-3xl sm:text-5xl lg:text-6xl font-black text-white">Find the Plan That Fits Your Vision</h2>
+                    <h2 class="font-display text-3xl sm:text-5xl lg:text-6xl font-black text-white">Fixed Custom Services & Packages</h2>
                     <div class="glow-line w-28 mx-auto rounded-full"></div>
                     <p class="text-gray-300 text-base sm:text-lg">
-                        All plans include clean source code, free SSL, mobile optimization, and dedicated support.
+                        Choose your exact project scope with transparent pricing from <strong class="text-malmaGreen">Ksh 5,000</strong> to <strong class="text-malmaCyan">Ksh 50,000</strong>. Every tier includes clean source code, free SSL, mobile responsiveness, and post-launch support.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <!-- Category Filter Tabs -->
+                <div class="flex flex-wrap justify-center gap-2.5 mb-12 reveal reveal-up">
+                    <button type="button" onclick="filterPricing('all', this)"
+                        class="pricing-filter-btn px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider bg-gradient-to-r from-malmaGreen to-malmaCyan text-black transition-all shadow-md">
+                        All Packages (7)
+                    </button>
+                    <button type="button" onclick="filterPricing('starter', this)"
+                        class="pricing-filter-btn px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider text-gray-300 glass-card hover:text-malmaGreen hover:border-malmaGreen/50 transition-all">
+                        Starter & Corporate (5k - 15k)
+                    </button>
+                    <button type="button" onclick="filterPricing('ecommerce', this)"
+                        class="pricing-filter-btn px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider text-gray-300 glass-card hover:text-malmaCyan hover:border-malmaCyan/50 transition-all">
+                        E-Commerce & Stores (20k - 30k)
+                    </button>
+                    <button type="button" onclick="filterPricing('webapp', this)"
+                        class="pricing-filter-btn px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider text-gray-300 glass-card hover:text-yellow-400 hover:border-yellow-400/50 transition-all">
+                        Custom Apps & Enterprise (40k - 50k)
+                    </button>
+                </div>
+
+                <!-- 7 Fixed Service Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
                     
-                    <!-- Tier 1: Starter Launch -->
-                    <div class="glass-card p-8 sm:p-10 rounded-3xl border-2 border-malmaGreen/60 relative flex flex-col justify-between shadow-2xl reveal reveal-left">
-                        <div class="absolute top-0 right-0 bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase px-4 py-1.5 rounded-bl-2xl tracking-wider">
-                            Most Popular
+                    <!-- 1. Ksh 5,000 - Starter Landing Page -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-malmaGreen/40 relative flex flex-col justify-between shadow-2xl reveal reveal-up group hover:border-malmaGreen" data-category="starter">
+                        <div class="absolute top-0 right-0 bg-gradient-to-r from-malmaGreen/30 to-malmaGreen text-black font-black text-[10px] uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+                            ⚡ 24–48h Rapid Launch
                         </div>
 
                         <div>
-                            <span class="text-xs font-black uppercase text-malmaGreen tracking-widest">Starter Tier</span>
-                            <h3 class="font-display text-3xl font-black text-white mt-1 mb-2">Standard Starter</h3>
-                            <p class="text-gray-400 text-xs sm:text-sm mb-6">Ideal for personal brands, landing pages, small businesses, and startups.</p>
+                            <span class="text-xs font-black uppercase text-malmaGreen tracking-widest">Entry Tier</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">Starter Landing Page</h3>
+                            <p class="text-gray-400 text-xs mb-5">High-converting single-page responsive website designed for ads, personal brands, or quick product launches.</p>
 
-                            <div class="flex items-baseline space-x-2 mb-6 pb-6 border-b border-malmaGreen/20">
-                                <span class="font-display text-5xl font-black text-malmaGreen price-val" data-kes="5000">Ksh 5,000</span>
-                                <span class="text-gray-400 text-xs font-bold">/ project starting fee</span>
-                            </div>
-
-                            <ul class="space-y-4 text-xs sm:text-sm text-gray-300 mb-8 font-medium">
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>Interactive Single / Multi-Section Landing Page</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>100% Responsive on Mobile, Tablet & PC</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>Free SSL Certificate Setup (HTTPS Lock)</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>Domain DNS Setup Guidance</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>Interactive Contact Form & WhatsApp Button</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaGreen text-base"></i>
-                                    <span>48 to 72 Hours Rapid Turnaround</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" 
-                            class="w-full py-4 rounded-2xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-sm shadow-xl shadow-malmaGreen/30 hover:opacity-90 transition-all text-center block uppercase tracking-wider">
-                            Choose Starter Plan
-                        </a>
-                    </div>
-
-                    <!-- Tier 2: Business Pro -->
-                    <div class="glass-card p-8 sm:p-10 rounded-3xl border-2 border-malmaCyan/40 relative flex flex-col justify-between hover:border-malmaCyan/70 reveal reveal-up">
-                        <div>
-                            <span class="text-xs font-black uppercase text-malmaCyan tracking-widest">Growth Tier</span>
-                            <h3 class="font-display text-3xl font-black text-white mt-1 mb-2">Business Pro</h3>
-                            <p class="text-gray-400 text-xs sm:text-sm mb-6">Designed for companies needing multi-page corporate sites and booking funnels.</p>
-
-                            <div class="flex items-baseline space-x-2 mb-6 pb-6 border-b border-malmaGreen/20">
-                                <span class="font-display text-5xl font-black text-white price-val" data-kes="15000">Ksh 15,000</span>
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-malmaGreen price-val" data-kes="5000">Ksh 5,000</span>
                                 <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
                             </div>
 
-                            <ul class="space-y-4 text-xs sm:text-sm text-gray-300 mb-8 font-medium">
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>Up to 7 Custom Interactive Pages</span>
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Single-Page High-Conversion Interactive UI</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>Advanced Google SEO & Metadata Optimization</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>100% Responsive on Mobile, Tablet & PC</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>Custom Business Email (info@yourcompany.com)</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Free SSL Certificate & HTTPS Encryption Lock</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>Interactive Booking / Lead Inquiry Engine</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Interactive Contact / Lead Capture Form</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>Google Analytics & Speed Tuning (95+ score)</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Direct WhatsApp Click-to-Chat Integration</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-malmaCyan text-base"></i>
-                                    <span>30 Days Free Dedicated Technical Support</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Domain DNS & Cloud Deployment Setup</span>
                                 </li>
                             </ul>
                         </div>
 
-                        <a href="#contact" 
-                            class="w-full py-4 rounded-2xl glass-card text-white font-black text-sm hover:border-malmaCyan transition-all text-center block uppercase tracking-wider">
-                            Choose Business Pro
-                        </a>
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('Starter Landing Page', 5000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-malmaGreen/20 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('Starter Landing Page (Ksh 5,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-malmaGreen transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
                     </div>
 
-                    <!-- Tier 3: E-Commerce & Custom App -->
-                    <div class="glass-card p-8 sm:p-10 rounded-3xl border-2 border-yellow-400/40 relative flex flex-col justify-between hover:border-yellow-400/70 reveal reveal-right">
-                        <div>
-                            <span class="text-xs font-black uppercase text-yellow-400 tracking-widest">Enterprise Tier</span>
-                            <h3 class="font-display text-3xl font-black text-white mt-1 mb-2">E-Commerce / App</h3>
-                            <p class="text-gray-400 text-xs sm:text-sm mb-6">For stores needing automated online payments or custom full-stack SaaS apps.</p>
+                    <!-- 2. Ksh 10,000 - Standard Business Website -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-malmaCyan/40 relative flex flex-col justify-between shadow-2xl reveal reveal-up group hover:border-malmaCyan" data-category="starter" style="transition-delay: 100ms;">
+                        <div class="absolute top-0 right-0 bg-malmaCyan text-black font-black text-[10px] uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+                            🏢 Small Business Choice
+                        </div>
 
-                            <div class="flex items-baseline space-x-2 mb-6 pb-6 border-b border-malmaGreen/20">
-                                <span class="font-display text-5xl font-black text-yellow-400 price-val" data-kes="35000">Ksh 35,000+</span>
-                                <span class="text-gray-400 text-xs font-bold">/ custom scope</span>
+                        <div>
+                            <span class="text-xs font-black uppercase text-malmaCyan tracking-widest">Business Tier</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">Standard Business Web</h3>
+                            <p class="text-gray-400 text-xs mb-5">Ideal for local clinics, consultancies, law firms, and service agencies wanting a multi-page portal.</p>
+
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-malmaCyan price-val" data-kes="10000">Ksh 10,000</span>
+                                <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
                             </div>
 
-                            <ul class="space-y-4 text-xs sm:text-sm text-gray-300 mb-8 font-medium">
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span class="flex flex-wrap items-center gap-2">
-                                        <span>Instant Payment Gateway Integration</span>
-                                        <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/70 border border-gray-700 text-[10px] font-bold text-gray-300">
-                                            <i class="fa-brands fa-stripe text-[#635BFF]"></i>
-                                            <i class="fa-brands fa-cc-mastercard text-[#EB001B]"></i>
-                                            <i class="fa-brands fa-paypal text-[#0079C1]"></i>
-                                            <span class="text-emerald-400 font-black">M-PESA</span>
-                                        </span>
-                                    </span>
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>3 to 4 Custom Responsive Pages (Home, About, Services, Contact)</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span>Complete Product Catalog & Shopping Cart</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>Modern Interactive Aesthetics & Glassmorphism</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span>Admin Dashboard for Orders & Inventory</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>Google Maps Location & Social Media Integration</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span>Custom REST APIs & Database Setup</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>Essential On-Page Google SEO Meta Tags</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span>Automated SMS / Email Order Receipts</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>High-Speed Asset Compression (Fast Mobile Load)</span>
                                 </li>
-                                <li class="flex items-center space-x-3">
-                                    <i class="fa-solid fa-check text-yellow-400 text-base"></i>
-                                    <span>60 Days Priority Support & SLA Warranty</span>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaCyan mt-0.5"></i>
+                                    <span>14 Days Free Post-Launch Technical Support</span>
                                 </li>
                             </ul>
                         </div>
 
-                        <a href="#contact" 
-                            class="w-full py-4 rounded-2xl glass-card text-white font-black text-sm hover:border-yellow-400 transition-all text-center block uppercase tracking-wider">
-                            Request Custom Quote
-                        </a>
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('Standard Business Website', 10000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-malmaCyan/20 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('Standard Business Website (Ksh 10,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-malmaCyan transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Ksh 15,000 - Corporate Growth Portal (Featured / Most Popular) -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-malmaGreen relative flex flex-col justify-between shadow-2xl reveal reveal-up group" data-category="starter" style="transition-delay: 200ms;">
+                        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase px-4 py-1.5 rounded-full tracking-wider shadow-lg">
+                            ⭐ Most Popular Plan
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-black uppercase text-malmaGreen tracking-widest">Growth Tier</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">Corporate Growth Portal</h3>
+                            <p class="text-gray-400 text-xs mb-5">Comprehensive corporate site built to dominate search results and capture high-value commercial leads.</p>
+
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-white price-val" data-kes="15000">Ksh 15,000</span>
+                                <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
+                            </div>
+
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>5 to 7 Bespoke Interactive Pages & Sections</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Custom Business Emails (<span class="text-malmaCyan">info@yourcompany.com</span>)</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Interactive Booking & Quotation Inquiry Engine</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Google PageSpeed 95+ Performance Optimization</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>Dynamic Portfolio / Case Studies Showcase Gallery</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-malmaGreen mt-0.5"></i>
+                                    <span>30 Days Free Dedicated Developer Support</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('Corporate Growth Portal', 15000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-malmaGreen/40 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('Corporate Growth Portal (Ksh 15,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-malmaGreen transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 4. Ksh 20,000 - E-Commerce Lite & Booking System -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-emerald-500/40 relative flex flex-col justify-between shadow-2xl reveal reveal-up group hover:border-emerald-400" data-category="ecommerce">
+                        <div class="absolute top-0 right-0 bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 font-black text-[10px] uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+                            🛍️ Store Starter
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-black uppercase text-emerald-400 tracking-widest">E-Commerce Tier</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">E-Commerce Lite / Booking</h3>
+                            <p class="text-gray-400 text-xs mb-5">Quick-launch online store or service appointment booking with direct WhatsApp & M-Pesa customer orders.</p>
+
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-emerald-400 price-val" data-kes="20000">Ksh 20,000</span>
+                                <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
+                            </div>
+
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>Product Catalog or Service Listings (up to 25 items)</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>Interactive Shopping Cart & Instant Order Summary</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>Direct M-PESA & WhatsApp Quick Checkout Flow</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>Automated Customer Order Notification Alerts</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>Customer Reviews, Ratings & Testimonials Engine</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                                    <span>30 Days Dedicated Maintenance & Bug Fixes</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('E-Commerce Lite & Booking', 20000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-emerald-500/20 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('E-Commerce Lite & Booking System (Ksh 20,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-emerald-400 transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 5. Ksh 30,000 - Automated Full E-Commerce Store -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-yellow-400/60 relative flex flex-col justify-between shadow-2xl reveal reveal-up group hover:border-yellow-400" data-category="ecommerce" style="transition-delay: 100ms;">
+                        <div class="absolute top-0 right-0 bg-yellow-400 text-black font-black text-[10px] uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+                            💳 Automated Gateways
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-black uppercase text-yellow-400 tracking-widest">Full E-Commerce</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">Automated Full E-Commerce</h3>
+                            <p class="text-gray-400 text-xs mb-5">End-to-end online store with automated payment processing, inventory manager, and customer dashboards.</p>
+
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-yellow-400 price-val" data-kes="30000">Ksh 30,000</span>
+                                <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
+                            </div>
+
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>Automated M-PESA STK Push + Stripe / Card Gateways</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>Secure Admin Dashboard for Orders, Stock & Products</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>Automated Email & SMS Receipts with PDF Invoices</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>Multi-Currency Switcher & Country Auto-Detection</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>Customer Accounts, Order Tracking & Wishlists</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-yellow-400 mt-0.5"></i>
+                                    <span>45 Days Priority Technical Warranty & Data Backups</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('Automated Full E-Commerce Store', 30000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-yellow-400/20 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('Automated Full E-Commerce Store (Ksh 30,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-yellow-400 transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 6. Ksh 40,000 - Custom Web App & Client Portal -->
+                    <div class="pricing-card glass-card p-8 rounded-3xl border-2 border-cyan-400/50 relative flex flex-col justify-between shadow-2xl reveal reveal-up group hover:border-cyan-400" data-category="webapp" style="transition-delay: 200ms;">
+                        <div class="absolute top-0 right-0 bg-cyan-400 text-black font-black text-[10px] uppercase px-3.5 py-1 rounded-bl-2xl tracking-wider">
+                            ⚙️ Full-Stack App
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-black uppercase text-cyan-400 tracking-widest">Web App Tier</span>
+                            <h3 class="font-display text-2xl font-black text-white mt-1 mb-1.5">Custom Web App / Portal</h3>
+                            <p class="text-gray-400 text-xs mb-5">Bespoke database-driven web application with secure logins, role-based dashboards, and custom logic.</p>
+
+                            <div class="flex items-baseline space-x-2 mb-6 pb-5 border-b border-malmaGreen/20">
+                                <span class="font-display text-4xl font-black text-cyan-400 price-val" data-kes="40000">Ksh 40,000</span>
+                                <span class="text-gray-400 text-xs font-bold">/ fixed price</span>
+                            </div>
+
+                            <ul class="space-y-3.5 text-xs text-gray-300 mb-8 font-medium">
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>Custom Full-Stack Backend (Node.js/Python) & REST APIs</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>Encrypted User Authentication, Passwords & Access Roles</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>High-Speed Database Architecture (PostgreSQL / MongoDB)</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>Interactive Analytics Dashboards & Data Export (CSV/PDF)</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>Custom Workflow Automation & Business Logic Engine</span>
+                                </li>
+                                <li class="flex items-start space-x-2.5">
+                                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                                    <span>60 Days Dedicated Engineering Support & SLA</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2.5 pt-4 border-t border-malmaGreen/15">
+                            <button onclick="orderServiceWhatsApp('Custom Web App & Client Portal', 40000)"
+                                class="w-full py-3.5 rounded-xl bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black text-xs uppercase tracking-wider shadow-lg shadow-cyan-400/20 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Order on WhatsApp</span>
+                            </button>
+                            <button onclick="selectPackageForContact('Custom Web App & Client Portal (Ksh 40,000)')"
+                                class="w-full py-2.5 rounded-xl glass-card text-gray-300 font-bold text-xs hover:text-white hover:border-cyan-400 transition-all">
+                                Inquire via Form
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 7. Ksh 50,000 - Enterprise Full-Stack SaaS Platform (Large Full-Width or Highlighted Card) -->
+                    <div class="pricing-card glass-card p-8 sm:p-10 rounded-3xl border-2 border-malmaGreen relative flex flex-col justify-between shadow-2xl reveal reveal-up group md:col-span-2 lg:col-span-3 bg-gradient-to-br from-emerald-950/40 via-black/80 to-cyan-950/40" data-category="webapp">
+                        <div class="absolute -top-3.5 right-8 bg-gradient-to-r from-amber-400 via-malmaGreen to-malmaCyan text-black font-black text-xs uppercase px-5 py-1.5 rounded-full tracking-wider shadow-xl">
+                            👑 VIP Enterprise Suite
+                        </div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                            <div class="lg:col-span-7 space-y-4">
+                                <span class="text-xs font-black uppercase text-amber-400 tracking-widest flex items-center gap-2">
+                                    <i class="fa-solid fa-crown text-amber-400"></i> Top Tier Enterprise Solution
+                                </span>
+                                <h3 class="font-display text-3xl sm:text-4xl font-black text-white">Enterprise Full-Stack SaaS Platform</h3>
+                                <p class="text-gray-300 text-sm leading-relaxed">
+                                    Complete bespoke software architecture built for scalability, multi-tenant cloud hosting, automated subscriptions, real-time messaging, and high transaction volume.
+                                </p>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2 text-xs text-gray-200">
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>Full-Stack SaaS Architecture (Frontend + REST/GraphQL APIs)</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>Multi-Tenant Cloud Infrastructure (AWS / GCP / Docker)</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>Automated Recurring Subscription Billing & Invoicing</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>Real-Time Notifications & WebSocket Communication</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>Complete Source Code Transfer & API Documentation</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2.5">
+                                        <i class="fa-solid fa-circle-check text-malmaGreen mt-0.5"></i>
+                                        <span>90 Days VIP Priority 24/7 Developer Hotline & SLA</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="lg:col-span-5 flex flex-col justify-center p-6 rounded-2xl bg-black/80 border border-malmaGreen/30 space-y-4 text-center sm:text-left">
+                                <div>
+                                    <span class="text-xs text-gray-400 font-semibold uppercase tracking-wider block">Comprehensive Enterprise Investment:</span>
+                                    <div class="flex items-baseline justify-center sm:justify-start space-x-2 mt-1">
+                                        <span class="font-display text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-malmaGreen via-emerald-300 to-malmaCyan price-val" data-kes="50000">Ksh 50,000</span>
+                                        <span class="text-gray-400 text-xs font-bold">/ turnkey project</span>
+                                    </div>
+                                    <span class="text-xs text-emerald-400 font-medium block mt-1"><i class="fa-solid fa-shield-halved text-malmaGreen mr-1"></i> Includes Free Architecture Consultation & 90-Day SLA</span>
+                                </div>
+
+                                <div class="space-y-2.5 pt-2">
+                                    <button onclick="orderServiceWhatsApp('Enterprise Full-Stack SaaS Platform', 50000)"
+                                        class="w-full py-4 rounded-xl bg-gradient-to-r from-malmaGreen via-emerald-400 to-malmaCyan text-black font-black text-sm uppercase tracking-wider shadow-xl shadow-malmaGreen/40 hover:opacity-90 transition-all flex items-center justify-center space-x-2">
+                                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                                        <span>Order Enterprise Plan on WhatsApp</span>
+                                    </button>
+                                    <button onclick="selectPackageForContact('Enterprise Full-Stack SaaS Platform (Ksh 50,000)')"
+                                        class="w-full py-3 rounded-xl glass-card text-white font-bold text-xs hover:border-malmaGreen transition-all">
+                                        Schedule Executive Consultation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -1832,16 +1965,16 @@
                                 </div>
                             </a>
 
-                            <div class="glass-card p-5 rounded-2xl flex items-center space-x-4 border-l-4 border-l-malmaCyan">
-                                <div class="w-14 h-14 rounded-2xl bg-malmaCyan/15 border border-malmaCyan/40 flex items-center justify-center text-malmaCyan text-2xl shadow-md">
+                            <a href="mailto:mentorbravin@gmail.com" class="glass-card p-5 rounded-2xl flex items-center space-x-4 border-l-4 border-l-malmaCyan hover:border-l-malmaGreen transition-all group block">
+                                <div class="w-14 h-14 rounded-2xl bg-malmaCyan/15 border border-malmaCyan/40 flex items-center justify-center text-malmaCyan text-2xl shadow-md group-hover:bg-malmaGreen/20 group-hover:text-malmaGreen transition-colors">
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div>
                                     <p class="text-[11px] text-gray-400 font-bold uppercase tracking-wider">Official Email</p>
-                                    <p class="text-white font-bold text-sm sm:text-base">info@malmatech.co.ke</p>
+                                    <p class="text-white font-bold text-sm sm:text-base group-hover:text-malmaCyan transition-colors">mentorbravin@gmail.com</p>
                                     <span class="text-xs text-gray-400">Formal proposals & inquiries</span>
                                 </div>
-                            </div>
+                            </a>
 
                             <div class="glass-card p-5 rounded-2xl flex items-center space-x-4 border-l-4 border-l-malmaGreen">
                                 <div class="w-14 h-14 rounded-2xl bg-malmaGreen/15 border border-malmaGreen/40 flex items-center justify-center text-malmaGreen text-2xl shadow-md">
@@ -1893,17 +2026,20 @@
                                     <label class="block text-xs font-black uppercase text-gray-300 mb-1.5">Email Address</label>
                                     <input type="email" id="formEmail" required
                                         class="w-full bg-black/70 border border-malmaGreen/30 rounded-xl px-4 py-3.5 text-white placeholder-gray-500 focus:outline-none focus:border-malmaGreen transition-colors text-xs sm:text-sm"
-                                        placeholder="client@company.com">
+                                        placeholder="mentorbravin@gmail.com">
                                 </div>
                                 <div>
                                     <label class="block text-xs font-black uppercase text-gray-300 mb-1.5">Package / Service Required</label>
                                     <select id="formService"
                                         class="w-full bg-black/90 border border-malmaGreen/30 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-malmaGreen transition-colors text-xs sm:text-sm">
-                                        <option value="Standard Starter Plan">Standard Starter Plan</option>
-                                        <option value="Business Pro Multi-Page">Business Pro Multi-Page</option>
-                                        <option value="E-Commerce & Online Store">E-Commerce & Online Store</option>
-                                        <option value="Custom Web App & API Architecture">Custom Web App & API Architecture</option>
-                                        <option value="Domain, SSL & Cloud Infrastructure">Domain, SSL & Cloud Infrastructure</option>
+                                        <option value="Starter Landing Page (Ksh 5,000)">Starter Landing Page (Ksh 5,000 / $39)</option>
+                                        <option value="Standard Business Website (Ksh 10,000)">Standard Business Website (Ksh 10,000 / $78)</option>
+                                        <option value="Corporate Growth Portal (Ksh 15,000)" selected>Corporate Growth Portal (Ksh 15,000 / $117)</option>
+                                        <option value="E-Commerce Lite & Booking System (Ksh 20,000)">E-Commerce Lite & Booking System (Ksh 20,000 / $156)</option>
+                                        <option value="Automated Full E-Commerce Store (Ksh 30,000)">Automated Full E-Commerce Store (Ksh 30,000 / $234)</option>
+                                        <option value="Custom Web App & Client Portal (Ksh 40,000)">Custom Web App & Client Portal (Ksh 40,000 / $312)</option>
+                                        <option value="Enterprise Full-Stack SaaS Platform (Ksh 50,000)">Enterprise Full-Stack SaaS Platform (Ksh 50,000 / $390)</option>
+                                        <option value="Custom Scope Consultation">Custom Scope Consultation</option>
                                     </select>
                                 </div>
                             </div>
@@ -1977,10 +2113,10 @@
                     <p class="font-display text-sm font-black uppercase tracking-wider text-white">Navigation</p>
                     <ul class="space-y-2 text-xs sm:text-sm text-gray-400">
                         <li><a href="#home" class="hover:text-malmaGreen transition-colors">Home Overview</a></li>
-                        <li><a href="#calculator" class="hover:text-malmaGreen transition-colors">Cost Calculator</a></li>
+                        <li><a href="#services" class="hover:text-malmaGreen transition-colors">Our Capabilities</a></li>
+                        <li><a href="#pricing" class="hover:text-malmaGreen transition-colors">Packages (5k - 50k)</a></li>
                         <li><a href="#portfolio" class="hover:text-malmaGreen transition-colors">Portfolio & Case Studies</a></li>
                         <li><a href="#why-us" class="hover:text-malmaGreen transition-colors">Why Choose Us</a></li>
-                        <li><a href="#pricing" class="hover:text-malmaGreen transition-colors">Pricing & Plans</a></li>
                         <li><a href="#faq" class="hover:text-malmaGreen transition-colors">FAQ Support</a></li>
                     </ul>
                 </div>
@@ -2049,24 +2185,29 @@
 
     <!-- ==================== FLOATING QUICK-ACTION WIDGETS ==================== -->
     
-    <!-- WhatsApp Floating Action Button -->
-    <a href="https://wa.me/254758716026?text=Hello%20MalmaTech,%20I%20am%20interested%20in%20building%20a%20website" target="_blank"
-        class="fixed bottom-6 right-6 z-50 flex items-center space-x-2.5 bg-gradient-to-r from-malmaGreen to-malmaCyan text-black font-black px-5 py-3.5 rounded-full shadow-2xl shadow-malmaGreen/40 hover:scale-105 transition-all group"
+    <!-- WhatsApp Floating Action Button (Always Visible & Optimized for Small Screens) -->
+    <a href="https://wa.me/254758716026?text=Hello%20MalmaTech,%20I%20am%20interested%20in%20your%20software%20and%20web%20services" target="_blank"
+        class="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-[9999] flex items-center gap-2.5 bg-gradient-to-r from-malmaGreen via-emerald-400 to-malmaCyan text-black font-black px-4 py-3 sm:px-5 sm:py-3.5 rounded-full shadow-2xl shadow-malmaGreen/60 hover:scale-105 active:scale-95 transition-all border border-white/30 backdrop-blur-md cursor-pointer group"
         aria-label="Chat on WhatsApp">
-        <i class="fa-brands fa-whatsapp text-2xl text-black"></i>
-        <span class="text-xs font-black hidden sm:inline-block">Chat with Developer</span>
-        <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-red-500 rounded-full border-2 border-black animate-ping"></span>
+        <div class="relative flex items-center justify-center">
+            <i class="fa-brands fa-whatsapp text-2xl text-black"></i>
+            <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-red-600 border border-white"></span>
+            </span>
+        </div>
+        <span class="text-xs font-black tracking-wide leading-none">WhatsApp Us</span>
     </a>
 
     <!-- Back to Top Button -->
     <button id="backToTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
-        class="fixed bottom-6 left-6 z-50 w-12 h-12 rounded-2xl glass-card text-malmaGreen border border-malmaGreen/40 flex items-center justify-center opacity-0 pointer-events-none transition-all hover:bg-malmaGreen hover:text-black shadow-lg"
+        class="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[9990] w-11 h-11 sm:w-12 sm:h-12 rounded-2xl glass-card text-malmaGreen border border-malmaGreen/40 flex items-center justify-center opacity-0 pointer-events-none transition-all hover:bg-malmaGreen hover:text-black shadow-lg"
         aria-label="Back to top">
         <i class="fa-solid fa-chevron-up text-sm"></i>
     </button>
 
     <!-- Toast Notification Message -->
-    <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 z-50 glass-card border-2 border-malmaGreen px-6 py-4 rounded-2xl shadow-2xl flex items-center space-x-3 text-white text-xs sm:text-sm font-bold">
+    <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 z-[9999] glass-card border-2 border-malmaGreen px-6 py-4 rounded-2xl shadow-2xl flex items-center space-x-3 text-white text-xs sm:text-sm font-bold">
         <i class="fa-solid fa-circle-check text-malmaGreen text-lg"></i>
         <span id="toastMsg">Inquiry sent successfully!</span>
     </div>
@@ -2092,7 +2233,7 @@
             const curr = currencyData[currCode] || currencyData['USD'];
             let converted = amountKes * curr.rate;
 
-            // Round nicely for high numbers
+            // Round nicely for clean display
             if (converted >= 1000) {
                 converted = Math.round(converted / 10) * 10;
             } else if (converted >= 100) {
@@ -2112,109 +2253,77 @@
             const select = document.getElementById('currencySelect');
             if (select) select.value = newCode;
 
-            // Update all static data-kes elements on page
+            // Update all static data-kes price elements across the page
             document.querySelectorAll('.price-val').forEach(el => {
                 const kes = parseFloat(el.getAttribute('data-kes'));
                 if (!isNaN(kes)) {
                     el.innerText = formatCurrency(kes, newCode);
                 }
             });
-
-            // Update Calculator
-            updateCalculator();
         }
 
         // Mobile Menu Toggle
         function toggleMobileMenu() {
             const menu = document.getElementById('mobileMenu');
-            menu.classList.toggle('hidden');
+            if (menu) menu.classList.toggle('hidden');
         }
 
-        // Interactive Calculator State & Logic
-        let calcState = {
-            baseKes: 5000,
-            projectType: 'starter',
-            projectTypeName: 'Starter Web Landing Package',
-            extraPagesKes: 0,
-            pagesText: '1 - 3 Pages (Included)'
-        };
-
-        function setProjectType(type, kesPrice, btnElement) {
-            calcState.projectType = type;
-            calcState.baseKes = kesPrice;
-
-            // Update button styles
-            const buttons = document.querySelectorAll('.calc-type-btn');
-            buttons.forEach(btn => {
-                btn.classList.remove('border-malmaGreen', 'bg-malmaGreen/15', 'text-white', 'shadow-sm');
-                btn.classList.add('border-gray-800', 'bg-black/50', 'text-gray-300');
+        // Fixed Custom Services Pricing Filter
+        function filterPricing(category, btnElement) {
+            const filterBtns = document.querySelectorAll('.pricing-filter-btn');
+            filterBtns.forEach(btn => {
+                btn.classList.remove('bg-gradient-to-r', 'from-malmaGreen', 'to-malmaCyan', 'text-black');
+                btn.classList.add('text-gray-300', 'glass-card');
             });
-
-            btnElement.classList.remove('border-gray-800', 'bg-black/50', 'text-gray-300');
-            btnElement.classList.add('border-malmaGreen', 'bg-malmaGreen/15', 'text-white', 'shadow-sm');
-
-            if (type === 'starter') calcState.projectTypeName = 'Starter Web Landing Package';
-            if (type === 'business') calcState.projectTypeName = 'Corporate Multi-Page Website';
-            if (type === 'ecommerce') calcState.projectTypeName = 'E-Commerce Store';
-            if (type === 'custom') calcState.projectTypeName = 'Custom Fullstack SaaS Web App';
-
-            document.getElementById('summaryProjectType').innerText = calcState.projectTypeName;
-            updateCalculator();
-        }
-
-        function updateCalculator() {
-            const pageSlider = document.getElementById('pageSlider');
-            const pageVal = parseInt(pageSlider.value);
-            let extraPagesKes = 0;
-            let pageText = '';
-
-            if (pageVal <= 3) {
-                extraPagesKes = 0;
-                pageText = '1 - 3 Pages (Included)';
-            } else if (pageVal <= 5) {
-                extraPagesKes = 2000;
-                pageText = `4 - 5 Pages (+${formatCurrency(2000, currentCurrency)})`;
-            } else if (pageVal <= 10) {
-                extraPagesKes = 5000;
-                pageText = `6 - 10 Pages (+${formatCurrency(5000, currentCurrency)})`;
-            } else {
-                extraPagesKes = 9000;
-                pageText = `11 - 15+ Pages (+${formatCurrency(9000, currentCurrency)})`;
+            if (btnElement) {
+                btnElement.classList.remove('text-gray-300', 'glass-card');
+                btnElement.classList.add('bg-gradient-to-r', 'from-malmaGreen', 'to-malmaCyan', 'text-black');
             }
 
-            document.getElementById('pageCountDisplay').innerText = pageText;
-            document.getElementById('summaryPageCount').innerText = pageText;
-
-            // Addons
-            let addonsKes = 0;
-            if (document.getElementById('addonMpesa').checked) addonsKes += 3500;
-            if (document.getElementById('addonSeo').checked) addonsKes += 1500;
-            if (document.getElementById('addonHosting').checked) addonsKes += 2500;
-            if (document.getElementById('addonExpress').checked) addonsKes += 2000;
-
-            const totalKes = calcState.baseKes + extraPagesKes + addonsKes;
-            const formattedTotal = formatCurrency(totalKes, currentCurrency);
-
-            document.getElementById('calcTotalPrice').innerText = formattedTotal;
-            document.getElementById('calcCurrencyCode').innerText = currentCurrency;
+            const cards = document.querySelectorAll('.pricing-card');
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
         }
 
-        function orderViaWhatsApp() {
-            const total = document.getElementById('calcTotalPrice').innerText;
-            const type = calcState.projectTypeName;
-            const pages = document.getElementById('summaryPageCount').innerText;
-
-            let addons = [];
-            if (document.getElementById('addonMpesa').checked) addons.push('Payment Gateway');
-            if (document.getElementById('addonSeo').checked) addons.push('Google SEO');
-            if (document.getElementById('addonHosting').checked) addons.push('Domain & Hosting');
-            if (document.getElementById('addonExpress').checked) addons.push('48h Priority Delivery');
-
-            const addonText = addons.length > 0 ? addons.join(', ') : 'None';
-            const msg = `Hello MalmaTech! I calculated a website quote on your website:\n\n• Package: ${type}\n• Pages: ${pages}\n• Add-ons: ${addonText}\n• Total Estimated: ${total} (${currentCurrency})\n\nI would like to start this project. Please guide me!`;
-
+        // Direct WhatsApp Ordering for Fixed Services
+        function orderServiceWhatsApp(packageName, kesAmount) {
+            const formattedPrice = formatCurrency(kesAmount, currentCurrency);
+            const msg = `Hello MalmaTech! I want to order the *${packageName}* package (${formattedPrice} / Ksh ${kesAmount.toLocaleString()}). Please guide me on getting started!`;
             const encoded = encodeURIComponent(msg);
             window.open(`https://wa.me/254758716026?text=${encoded}`, '_blank');
+        }
+
+        // Select Package and Scroll to Contact Form
+        function selectPackageForContact(serviceName) {
+            const serviceSelect = document.getElementById('formService');
+            if (serviceSelect) {
+                // Find matching option or set value
+                let found = false;
+                for (let i = 0; i < serviceSelect.options.length; i++) {
+                    if (serviceSelect.options[i].value.includes(serviceName.split(' (')[0])) {
+                        serviceSelect.selectedIndex = i;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) serviceSelect.value = serviceName;
+            }
+
+            const contactSection = document.getElementById('contact');
+            if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            setTimeout(() => {
+                const nameInput = document.getElementById('formName');
+                if (nameInput) nameInput.focus();
+            }, 600);
         }
 
         // Filter Portfolio
@@ -2224,8 +2333,10 @@
                 btn.classList.remove('bg-malmaGreen', 'text-black');
                 btn.classList.add('text-gray-300', 'glass-card');
             });
-            btnElement.classList.add('bg-malmaGreen', 'text-black');
-            btnElement.classList.remove('text-gray-300', 'glass-card');
+            if (btnElement) {
+                btnElement.classList.add('bg-malmaGreen', 'text-black');
+                btnElement.classList.remove('text-gray-300', 'glass-card');
+            }
 
             const cards = document.querySelectorAll('.port-card');
             cards.forEach(card => {
@@ -2258,35 +2369,40 @@
             const name = document.getElementById('formName').value;
             const phone = document.getElementById('formPhone').value;
             const service = document.getElementById('formService').value;
+            const details = document.getElementById('formDetails') ? document.getElementById('formDetails').value : '';
 
-            showToast(`Thank you ${name}! Your inquiry has been received. Opening WhatsApp...`);
+            showToast(`Thank you ${name}! Opening WhatsApp with your project details...`);
 
             setTimeout(() => {
-                const encoded = encodeURIComponent(`Hello MalmaTech! My name is ${name} (${phone}). I am inquiring about: ${service} (Currency: ${currentCurrency}).`);
+                const encoded = encodeURIComponent(`Hello MalmaTech! My name is ${name} (${phone}).\n\n• Package Selected: ${service}\n• Currency: ${currentCurrency}\n• Project Details: ${details}`);
                 window.open(`https://wa.me/254758716026?text=${encoded}`, '_blank');
-            }, 1200);
+            }, 1000);
 
             e.target.reset();
         }
 
         function showToast(msg) {
             const toast = document.getElementById('toast');
-            document.getElementById('toastMsg').innerText = msg;
-            toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 4000);
+            if (toast) {
+                document.getElementById('toastMsg').innerText = msg;
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 4000);
+            }
         }
 
         // Scroll Listener for Back To Top
         window.addEventListener('scroll', () => {
             const backToTop = document.getElementById('backToTopBtn');
-            if (window.scrollY > 400) {
-                backToTop.classList.remove('opacity-0', 'pointer-events-none');
-                backToTop.classList.add('opacity-100', 'pointer-events-auto');
-            } else {
-                backToTop.classList.remove('opacity-100', 'pointer-events-auto');
-                backToTop.classList.add('opacity-0', 'pointer-events-none');
+            if (backToTop) {
+                if (window.scrollY > 400) {
+                    backToTop.classList.remove('opacity-0', 'pointer-events-none');
+                    backToTop.classList.add('opacity-100', 'pointer-events-auto');
+                } else {
+                    backToTop.classList.remove('opacity-100', 'pointer-events-auto');
+                    backToTop.classList.add('opacity-0', 'pointer-events-none');
+                }
             }
         });
 
@@ -2308,7 +2424,7 @@
             revealObserver.observe(el);
         });
 
-        // Initialize currency and calculator on load
+        // Initialize currency on load
         window.addEventListener('DOMContentLoaded', () => {
             const savedCurr = localStorage.getItem('malmatech_curr') || 'USD';
             changeCurrency(savedCurr);

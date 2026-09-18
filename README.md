@@ -20,10 +20,9 @@
   - 🇳🇬 NGN (₦)
   - 🇨🇦 CAD (CA$)
   - 🇦🇺 AUD (A$)
-- 🧮 **Interactive Project Cost Calculator**: Instant quote estimator for custom pages, payment gateways, Google SEO, hosting & SSL, and express 48h delivery with live WhatsApp order dispatch.
+- ⚡ **7 Fixed Custom Service Packages (Ksh 5,000 to Ksh 50,000)**: Transparent, end-to-end pricing tiers (Starter Landing Page, Standard Business Website, Corporate Growth Portal, E-Commerce Lite, Automated Full E-Commerce, Custom Web App, and Enterprise Full-Stack SaaS Platform) with instant WhatsApp ordering and multi-currency conversion.
 - 🎨 **Modern Glassmorphic UI/UX**: Handcrafted cyber-emerald glass cards, glowing gradient borders, smooth micro-interactions, and scroll reveal animations (`reveal-left`, `reveal-right`, `reveal-up`, `reveal-zoom`).
-- ⚡ **Multi-Tier Transparent Pricing**: Transparent plans (Standard Starter, Business Pro, E-Commerce/Custom SaaS App) with zero hidden fees.
-- 📱 **100% Mobile-First Responsive**: Flawless experience across smartphones, tablets, laptops, and ultra-wide screens.
+- 📱 **100% Mobile-First Responsive**: Flawless experience across smartphones, tablets, laptops, and ultra-wide screens with an always-visible floating WhatsApp quick-action button.
 - 💬 **Instant WhatsApp & Direct Contact Integration**: One-click WhatsApp ordering directly connected to **+254 758 716 026**.
 
 ---
@@ -54,7 +53,7 @@
 ## 📞 Contact & Inquiries
 
 - **WhatsApp & Call**: [+254 758 716 026](https://wa.me/254758716026)
-- **Official Email**: [info@malmatech.co.ke](mailto:info@malmatech.co.ke)
+- **Official Email**: [mentorbravin@gmail.com](mailto:mentorbravin@gmail.com)
 - **Agency Hub**: Nairobi, Kenya (Serving clients globally)
 
 ---
