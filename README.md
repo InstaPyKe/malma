@@ -1,52 +1,25 @@
-# 🚀 MALMATECH - World-Class Web & Software Engineering Agency
+# 🚀 MALMATECH — Full-Stack Web, Android App Engineering & Tech Mentorship
 
-![MALMATECH Header](https://picsum.photos/id/1/1200/400)
-
-**MalmaTech** is a premier digital agency building super nice, high-converting interactive websites, full-stack web applications, custom REST APIs, e-commerce stores, and cloud infrastructure for ambitious brands worldwide.
+**MalmaTech** builds production-grade Android mobile applications, full-stack web platforms, e-commerce payment systems (M-Pesa STK Push & Stripe), and provides hands-on **1-on-1 software development tutoring & mentorship**.
 
 ---
 
-## ✨ Key Features
+## ✨ Key Highlights
 
-- 🌌 **3 Bluish-White Animated Comets**: Smooth glowing diagonal comets traveling across glassmorphic dark cyber space.
-- 💎 **Magnified MALMATECH Brand Identity**: Glowing 3D `< />` emblem with vibrant emerald-cyan typography.
-- 🌍 **Global Country & Currency Switcher**: Real-time dynamic currency switcher supporting:
-  - 🇺🇸 USD ($)
-  - 🇰🇪 KES (Ksh)
-  - 🇬🇧 GBP (£)
-  - 🇪🇺 EUR (€)
-  - 🇦🇪 AED (AED)
-  - 🇿🇦 ZAR (R)
-  - 🇳🇬 NGN (₦)
-  - 🇨🇦 CAD (CA$)
-  - 🇦🇺 AUD (A$)
-- ⚡ **7 Fixed Custom Service Packages (Ksh 5,000 to Ksh 50,000)**: Transparent, end-to-end pricing tiers (Starter Landing Page, Standard Business Website, Corporate Growth Portal, E-Commerce Lite, Automated Full E-Commerce, Custom Web App, and Enterprise Full-Stack SaaS Platform) with instant WhatsApp ordering and multi-currency conversion.
-- 🎨 **Modern Glassmorphic UI/UX**: Handcrafted cyber-emerald glass cards, glowing gradient borders, smooth micro-interactions, and scroll reveal animations (`reveal-left`, `reveal-right`, `reveal-up`, `reveal-zoom`).
-- 📱 **100% Mobile-First Responsive**: Flawless experience across smartphones, tablets, laptops, and ultra-wide screens with an always-visible floating WhatsApp quick-action button.
-- 💬 **Instant WhatsApp & Direct Contact Integration**: One-click WhatsApp ordering directly connected to **+254 758 716 026**.
+- 📱 **Full-Stack Android App Development**: Native Android apps using **Kotlin & Jetpack Compose**, Flutter, REST APIs, Firebase, offline-first sync, and Google Play Store publishing.
+- 💻 **Modern Full-Stack Web & E-Commerce**: Responsive frontends, scalable Node.js & Python backends, PostgreSQL/MongoDB databases, and automated M-Pesa & Stripe payment checkouts.
+- 🎓 **1-on-1 Developer Education & Tutoring**: Live coding mentorship, project-based learning (Android & Full-Stack Web tracks), debugging guidance, and portfolio preparation.
+- 🌍 **Multi-Currency Pricing**: Built-in currency switcher supporting `KES`, `USD`, `GBP`, `EUR`, `AED`, `ZAR`, and `NGN`.
+- 🎨 **Clean Modern UI**: Streamlined, fast-loading dark glassmorphic interface with zero clutter.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **HTML5 & Modern Semantic Elements**
-- **Tailwind CSS & Vanilla CSS Design System**
-- **JavaScript (ES6+)** with IntersectionObserver & Real-time State Engine
-- **FontAwesome 6** for crisp iconography
-- **Google Fonts** (*Outfit*, *Plus Jakarta Sans*, *Fira Code*)
-
----
-
-## 🚀 Getting Started Locally
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/InstaPyKe/malma.git
-   cd malma
-   ```
-
-2. **Open the website**:
-   - Simply double click `index.html` or open it with Live Server in your favorite code editor.
+- **Mobile**: Kotlin, Jetpack Compose, Android SDK, Flutter, Firebase
+- **Frontend**: HTML5, Tailwind CSS, JavaScript (ES6+), React / Next.js
+- **Backend & DB**: Node.js, Python, REST APIs, PostgreSQL, MongoDB
+- **Payments**: M-Pesa Daraja API (STK Push), Stripe, PayPal
 
 ---
 
@@ -54,8 +27,4 @@
 
 - **WhatsApp & Call**: [+254 758 716 026](https://wa.me/254758716026)
 - **Official Email**: [mentorbravin@gmail.com](mailto:mentorbravin@gmail.com)
-- **Agency Hub**: Nairobi, Kenya (Serving clients globally)
-
----
-
-&copy; 2026 **MALMATECH Software Agency**. All rights reserved.
+- **Location**: Nairobi, Kenya (Serving clients & students worldwide)
